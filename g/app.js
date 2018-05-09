@@ -51,7 +51,6 @@ renderPosts = (posts) => {
 //Render comments
 const renderComments = (comments) => {
     for (let comment of comments) {
-        console.log(comment.postId);
         $(`#comment-${comment.postId}`).append(`
             <p><span class="boldText">${comment.email}:</span> ${comment.body}</p>
          `)
