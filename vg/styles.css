@@ -1,0 +1,36 @@
+header {
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+header a {
+    color: black;
+    font-size: large;
+    margin-left: 1em;
+    text-decoration: none;
+}
+
+/* Blog list styling */
+.boldText {
+    font-weight: bold;
+}
+.comments {
+    padding-left: 20px;
+}
+
+/* Add post styling*/
+#addPost {
+    display: none;
+    padding: 10px 0 0 20px;
+}
+#myForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+}
+#myForm * {
+    margin-bottom: 8px;
+    padding: 5px;
+}
+.error-msg {
+    color: red;
+}

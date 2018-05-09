@@ -10,6 +10,30 @@
 <body>
 
   <!-- HTML för att implementera krav A-E -->
+<header>
+    <a href="#" id="posts">Posts</a>
+    <a href="#" id="newPost">New Post</a>
+</header>
+  <ul id="blog-container">
+
+  </ul>
+  <div id="addPost">
+      <form id="myForm">
+          <label for="titleInput">Title</label>
+          <input type="text" id="titleInput">
+          <label for="contentInput">Content</label>
+          <textarea
+                  id="contentInput"
+                  cols="30"
+                  rows="3"></textarea>
+          <div>
+              <button type="submit" id="submit-btn">Submit</button>
+          </div>
+      </form>
+      <div id="status-display">
+
+      </div>
+  </div>
 
   <!-- Scripts -->
   <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
